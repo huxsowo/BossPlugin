@@ -1,0 +1,13 @@
+main: BossPlugin.Main
+name: BossPlugin
+version: 1
+author: Huxs
+description: 'Custom Bosses'
+api-version: 1.16.4
+commands:
+  spawnboss:
+    description: 'Spawns a boss'
+    usage: /spawnboss BossName Location(optional)
+  bosslist:
+    description: 'Sends a list of every boss to the user'
+    usage: /bosslist
