@@ -29,9 +29,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/spigot-1.16.4.jar!/" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Plugins/BossPlugin" />
     <property name="project.structure.last.edited" value="Artifacts" />
-    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.proportion" value="0.15234375" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="discord-application" />
   </component>
@@ -53,14 +53,14 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="336" y="305" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1606254210584" />
-    <state x="267" y="295" key="FileChooserDialogImpl" timestamp="1606254165538">
+    <state x="267" y="295" key="FileChooserDialogImpl" timestamp="1606255254481">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="267" y="295" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1606254165538" />
-    <state x="410" y="98" key="SettingsEditor" timestamp="1606254213380">
+    <state x="267" y="295" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1606255254481" />
+    <state x="410" y="98" key="SettingsEditor" timestamp="1606255258398">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="410" y="98" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1606254213380" />
+    <state x="410" y="98" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1606255258398" />
     <state x="0" y="164" key="new project wizard" timestamp="1606246233866">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

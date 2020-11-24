@@ -74,7 +74,7 @@ public class Main extends JavaPlugin implements Listener {
                 break;
             case "bosslist":
                 player.sendMessage(bossList);
-                return true;
+                break;
         }
         return true;
     }
