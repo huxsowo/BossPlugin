@@ -1,6 +1,7 @@
 package BossPlugin.Bosses;
 
 import BossPlugin.Boss;
+import BossPlugin.BossAI.SteveAI;
 import BossPlugin.Utils.ParticleUtil;
 import org.bukkit.*;
 import org.bukkit.entity.EntityType;
@@ -20,5 +21,6 @@ public class Steve extends Boss {
         World world = location.getWorld();
         ParticleUtil.spawnParticle(Particle.EXPLOSION_HUGE, location, world);
         world.playSound(location, Sound.BLOCK_FIRE_EXTINGUISH, 2, 1);
+        SteveAI.start(this);
     }
 }

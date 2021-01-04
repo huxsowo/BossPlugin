@@ -29,8 +29,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Plugins/BossPlugin" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Spigot/plugins/ProtocolLib.jar!/" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15234375" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="discord-application" />
@@ -53,17 +53,25 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="336" y="305" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1606254210584" />
-    <state x="267" y="295" key="FileChooserDialogImpl" timestamp="1606255254481">
+    <state x="267" y="295" key="FileChooserDialogImpl" timestamp="1606261018165">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="267" y="295" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1606255254481" />
-    <state x="410" y="98" key="SettingsEditor" timestamp="1606255258398">
+    <state x="267" y="295" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1606261018165" />
+    <state x="410" y="98" key="SettingsEditor" timestamp="1606261020923">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="410" y="98" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1606255258398" />
-    <state x="0" y="164" key="new project wizard" timestamp="1606246233866">
+    <state x="410" y="98" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1606261020923" />
+    <state x="656" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1606842962464">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="0" y="164" key="new project wizard/0.0.1920.1080@0.0.1920.1080" timestamp="1606246233866" />
+    <state x="656" y="364" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1606842962464" />
+    <state x="0" y="164" key="new project wizard" timestamp="1606843025723">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="0" y="164" key="new project wizard/0.0.1920.1080@0.0.1920.1080" timestamp="1606843025723" />
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1606265592642">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1606265592642" />
   </component>
 </project>

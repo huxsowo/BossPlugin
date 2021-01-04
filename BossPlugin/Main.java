@@ -2,19 +2,27 @@ package BossPlugin;
 
 import BossPlugin.Bosses.Steve;
 import BossPlugin.Managers.EventManager;
+import org.bukkit.Bukkit;
 import org.bukkit.Location;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
+import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
+import org.bukkit.event.entity.EntityDamageByEntityEvent;
+import org.bukkit.event.entity.EntityDamageEvent;
 import org.bukkit.plugin.Plugin;
 import org.bukkit.plugin.java.JavaPlugin;
+import org.bukkit.scheduler.BukkitRunnable;
+
+import java.util.ArrayList;
 
 public class Main extends JavaPlugin implements Listener {
 
     public static Plugin ourInstance;
     public static Boss[] allBosses;
     public static String bossList = "All bosses:";
+    public double dps;
 
     public static void main(String[] args){
     }
@@ -35,6 +43,8 @@ public class Main extends JavaPlugin implements Listener {
         for (Boss boss : allBosses){
             bossList = bossList + " " + boss.name + ",";
         }
+
+        dps = 0;
     }
 
     @Override
@@ -77,5 +87,24 @@ public class Main extends JavaPlugin implements Listener {
                 break;
         }
         return true;
+    }
+
+    public void addDps(double dmg){
+        dps += dmg;
+        Bukkit.broadcastMessage("DPS: " + dps);
+        new BukkitRunnable(){
+            @Override
+            public void run(){
+                dps -= dmg;
+            }
+        }.runTaskLater(getInstance(), 20);
+    }
+
+    @EventHandler
+    public void onDamage(EntityDamageByEntityEvent e) {
+        if (e.getDamager() instanceof Player) {
+            double dmg = e.getDamage();
+            addDps(dmg);
+        }
     }
 }
